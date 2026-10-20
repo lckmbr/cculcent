@@ -943,8 +943,21 @@ button {
   border-bottom: 1px solid var(--stone-line);
 }
 .footer-about {
+  position: relative;
+  isolation: isolate; /* keeps the pattern's z-index inside this column, so it can't slip behind the footer background */
   grid-column: span 3;
 }
+.footer-pattern {
+  position: absolute;
+  inset: 0; /* fills the first column only */
+  z-index: -1; /* sits behind the logo and text */
+  background-image: url("assets/footer-pattern.png");
+  /* background-repeat: none; */
+  background-size: 320px; /* size of one tile; smaller = denser pattern */
+  opacity: 0.08; /* low opacity; try .05 to .12 */
+  pointer-events: none;
+}
+
 /* Footer logo: MONOCHROME / VERTICAL variation of the UJAMAA logo — a DARK
    ink-colored mark, since the footer now sits on a light background.
    Swapped automatically per language from the LOGOS object in script.js. */
