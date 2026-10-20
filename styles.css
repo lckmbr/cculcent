@@ -958,6 +958,12 @@ button {
   pointer-events: none;
 }
 
+@media (max-width: 767px) {
+  .footer-pattern {
+    display: none;
+  }
+}
+
 /* Footer logo: MONOCHROME / VERTICAL variation of the UJAMAA logo — a DARK
    ink-colored mark, since the footer now sits on a light background.
    Swapped automatically per language from the LOGOS object in script.js. */
