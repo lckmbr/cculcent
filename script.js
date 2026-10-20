@@ -305,7 +305,7 @@ const I18N = {
     "footer.about":
       "UJAMAA Cultural Center empowers the young people of Beni, DRC through culture, education, and opportunity.",
     "footer.linksTitle": "Explore",
-    "footer.bankTitle": "Bank details for donations",
+    "footer.bankTitle": "Bank details",
     "footer.contactTitle": "Contact",
     "footer.email": "cculturel.ujamaa@gmail.com",
     "footer.rights": "All rights reserved.",
@@ -349,7 +349,7 @@ const I18N = {
     "footer.about":
       "Le Centre culturel UJAMAA accompagne les jeunes de Beni, en République démocratique du Congo, à travers la culture, l'éducation et l'accès aux opportunités.",
     "footer.linksTitle": "Explorer",
-    "footer.bankTitle": "Coordonnées bancaires pour les dons",
+    "footer.bankTitle": "Coordonnées bancaires",
     "footer.contactTitle": "Contact",
     "footer.email": "cculturel.ujamaa@gmail.com",
     "footer.rights": "Tous droits réservés.",
