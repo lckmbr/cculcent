@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>UJAMAA Cultural Center — Beni, DRC</title>
+    <meta
+      name="description"
+      content="UJAMAA Cultural Center empowers young people in Beni, Democratic Republic Of Congo to choose culture, opportunity, and peace."
+    />
+
+    <!-- Favicon — TODO: replace assets/favicon.png and assets/favicon.ico with the real UJAMAA mark -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon.png"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/favicon.ico"
+    />
+
+    <!-- Open Graph / social preview — TODO: replace assets/og-image.jpg (1200x630) with a real preview photo -->
+    <meta
+      property="og:type"
+      content="website"
+    />
+    <meta
+      property="og:title"
+      content="UJAMAA Cultural Center — Beni, DRC"
+    />
+    <meta
+      property="og:description"
+      content="Every dream deserves a chance to outshine violence. UJAMAA empowers young people in Beni through culture, education, and opportunity."
+    />
+    <meta
+      property="og:url"
+      content="https://ujamaa-initiative.org"
+    />
+    <meta
+      property="og:image"
+      content="https://ujamaa-initiative.org/assets/og-image.webp"
+    />
+    <meta
+      property="og:site_name"
+      content="UJAMAA Cultural Center"
+    />
+    <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
+    <meta
+      name="twitter:title"
+      content="UJAMAA Cultural Center — Beni, DRC"
+    />
+    <meta
+      name="twitter:description"
+      content="Every dream deserves a chance to outshine violence."
+    />
+    <meta
+      name="twitter:image"
+      content="https://ujamaa-initiative.org/assets/og-image.webp"
+    />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+  </head>
+  <body>
+    <!-- ============================================================
+     HEADER — light ivory background, wide/horizontal logo
+     ============================================================ -->
+    <header
+      class="site-header"
+      id="siteHeader"
+    >
+      <a
+        href="#top"
+        class="logo-link"
+      >
+        <!-- Header logo: WIDE / HORIZONTAL UJAMAA logo. Source swapped by
+         language via the LOGOS object in script.js (id="headerLogo"). -->
+        <img
+          id="headerLogo"
+          src=""
+          alt="UJAMAA Cultural Center"
+        />
+      </a>
+      <nav
+        class="main-nav"
+        id="mainNav"
+      >
+        <a
+          href="#who"
+          data-i18n="nav.who"
+        >
+          Who We Are
+        </a>
+        <a
+          href="#programs"
+          data-i18n="nav.programs"
+        >
+          Our Programs
+        </a>
+        <a
+          href="#video"
+          data-i18n="nav.video"
+        >
+          Our Vision
+        </a>
+        <a
+          href="#region"
+          data-i18n="nav.region"
+        >
+          Region
+        </a>
+        <div class="lang-toggle">
+          <button
+            data-lang-btn="en"
+            class="active"
+          >
+            EN
+          </button>
+          <button data-lang-btn="fr">FR</button>
+        </div>
+        <a
+          href="#donate"
+          class="btn nav-cta donate-btn"
+          data-i18n="nav.donate"
+        >
+          Donate
+        </a>
+      </nav>
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <!-- ============================================================
+     HERO — 100vh
+     ============================================================ -->
+    <section
+      class="hero"
+      id="top"
+    >
+      <div class="hero-media">
+        <!-- Stock photo (Pexels, free license). Replace with a real photo of UJAMAA / Beni. -->
+        <img
+          src="/assets/two little girls taken from a low angle perspective.jpg"
+          alt="Community gathering, symbolic of Beni's culture and resilience"
+        />
+      </div>
+      <div class="wrap hero-inner">
+        <div class="grid">
+          <h1 data-i18n="hero.headline">
+            Every dream deserves a chance to outshine violence.
+          </h1>
+          <div class="hero-foot">
+            <span
+              class="place"
+              data-i18n="hero.place"
+            >
+              Beni · Eastern Democratic Republic Of Congo
+            </span>
+            <a
+              href="#who"
+              class="scroll-cue"
+            >
+              <span class="sq"></span>
+              <span data-i18n="hero.scroll">Scroll</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     WHO WE ARE
+     ============================================================ -->
+    <section
+      class="section section-ivory"
+      id="who"
+    >
+      <div class="wrap">
+        <div class="index-tag">
+          <span>01</span>
+          <span class="of">Who We Are</span>
+        </div>
+        <div class="grid">
+          <span
+            class="who-label c12"
+            data-i18n="who.label"
+          >
+            Who We Are
+          </span>
+          <p
+            class="who-statement reveal"
+            data-i18n="who.statement"
+          >
+            For decades, the city and territory of Beni in eastern Democratic
+            Republic Of Congo have endured armed conflict, displacement, and
+            violence that have deprived thousands of young people of the
+            opportunities they deserve.
+            <strong>But Beni is more than conflict.</strong>
+            Beyond the hardships lies a generation of talented, creative,
+            resilient, and ambitious young people eager to learn, create,
+            innovate, serve their communities, and contribute to the future of
+            their country.
+          </p>
+          <div class="who-side reveal">
+            <p
+              class="who-answer"
+              data-i18n="who.answer"
+            >
+              Our answer is culture.
+            </p>
+            <p
+              class="who-founder"
+              data-i18n="who.founder"
+            >
+              UJAMAA was founded by Rogatien Milord, a Congolese artist,
+              cultural entrepreneur, and philanthropist from Beni.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     GROUP PHOTO — full-width band
+     ============================================================ -->
+    <section class="photo-band">
+      <!-- TODO: replace src with a real group photo of UJAMAA participants -->
+      <img
+        src="/assets/resistance with rogatien main in front.jpg"
+        alt="Group photo of UJAMAA participants"
+      />
+    </section>
+
+    <!-- ============================================================
+     OUR PROGRAMS — wide cards
+     ============================================================ -->
+    <section
+      class="section section-white"
+      id="programs"
+    >
+      <div class="wrap">
+        <div class="index-tag">
+          <span>02</span>
+          <span class="of">Our Programs</span>
+        </div>
+        <div
+          class="grid"
+          style="margin-bottom: 36px"
+        >
+          <span
+            class="who-label c12"
+            data-i18n="programs.label"
+          >
+            Our Programs
+          </span>
+          <p
+            class="who-statement c9 reveal"
+            style="font-size: clamp(19px, 2.1vw, 24px)"
+            data-i18n="programs.intro"
+          >
+            Four disciplines, one purpose: giving young people the tools to
+            become agents of change instead of victims of circumstance.
+          </p>
+        </div>
+        <div class="grid">
+          <!-- Cards are rendered from the PROGRAMS array in script.js (images, titles, descriptions AND tags are all separate fields there). -->
+          <div
+            class="programs-list"
+            id="programsList"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     SLIDER — 100vw, program highlights
+     ============================================================ -->
+    <section class="slider-section">
+      <div class="slider-head wrap">
+        <div class="index-tag">
+          <span>03</span>
+          <span
+            class="of"
+            data-i18n="slider.label"
+          >
+            Program Highlights
+          </span>
+        </div>
+      </div>
+      <div
+        class="slider-viewport"
+        id="sliderViewport"
+      >
+        <!-- Slides are rendered from the SLIDER_IMAGES array in script.js — edit that array, not this markup. -->
+        <div
+          class="slider-track"
+          id="sliderTrack"
+        ></div>
+        <div
+          class="slider-dots"
+          id="sliderDots"
+        ></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     VIDEO — founder's vision (YouTube)
+     ============================================================ -->
+    <section
+      class="section section-ink"
+      id="video"
+    >
+      <div class="wrap">
+        <div class="index-tag">
+          <span>04</span>
+          <span
+            class="of"
+            data-i18n="video.label"
+          >
+            Our Vision
+          </span>
+        </div>
+        <!-- FOUNDER_VIDEO in script.js holds the YouTube video ID.
+         The video is cued (loaded but paused) on page load via the YouTube
+         IFrame API, so the first click starts playback with no delay. -->
+        <div
+          class="video-card reveal"
+          id="videoCard"
+        >
+          <div
+            class="video-bg-wrap"
+            id="videoBgWrap"
+          >
+            <div id="videoMount"></div>
+          </div>
+          <button
+            class="video-center-btn"
+            id="videoPlayPauseBtn"
+            aria-label="Play or pause"
+          >
+            <i data-lucide="play"></i>
+          </button>
+          <div
+            class="video-top-controls"
+            id="videoTopControls"
+          >
+            <button
+              id="videoMuteBtn"
+              aria-label="Mute or unmute"
+            >
+              <i data-lucide="volume-x"></i>
+            </button>
+            <button
+              id="videoFsBtn"
+              aria-label="Fullscreen"
+            >
+              <i data-lucide="maximize"></i>
+            </button>
+          </div>
+        </div>
+        <p
+          class="video-caption"
+          data-i18n="video.caption"
+        >
+          Rogatien Milord on why UJAMAA exists and where it's headed next.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     REGION — map (3/5 width) + geography copy
+     ============================================================ -->
+    <section
+      class="section section-white"
+      id="region"
+    >
+      <div class="wrap">
+        <div class="index-tag">
+          <span>05</span>
+          <span class="of">Region</span>
+        </div>
+        <div class="region-grid">
+          <div class="region-copy reveal">
+            <span
+              class="who-label"
+              data-i18n="region.label"
+            >
+              Where We Work
+            </span>
+            <h2
+              class="region-title"
+              data-i18n="region.title"
+            >
+              Beni, North Kivu
+            </h2>
+            <p data-i18n="region.copy">
+              Beni lies in North Kivu, in eastern Democratic Republic Of Congo,
+              immediately west of Virunga National Park and the Rwenzori
+              Mountains, on the edge of the Ituri Forest. It is a region of
+              striking natural beauty — and one that has carried the weight of
+              conflict for decades. UJAMAA works from the heart of this
+              territory.
+            </p>
+          </div>
+          <div class="region-visuals">
+            <div class="region-map reveal">
+              <img
+                src="assets/central africa map__beni.png"
+                alt="Map showing the location of Beni"
+              />
+            </div>
+            <!-- TODO: replace with a real vertical landscape photo of the Beni region -->
+            <div class="region-photo reveal">
+              <img
+                src="/assets/camera set in field.jpeg"
+                alt="Landscape near the Beni region"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     FULL-WIDTH IMAGE — sits just before the Donate CTA
+     ============================================================ -->
+    <section class="photo-band">
+      <!-- TODO: replace src with a real full-width photo -->
+      <img
+        src="/assets/two little girls taken from a low angle perspective.jpg"
+        alt="UJAMAA community"
+      />
+    </section>
+
+    <!-- ============================================================
+     DONATE — standalone call to action
+     ============================================================ -->
+    <section
+      class="cta-band"
+      id="donate"
+    >
+      <div class="wrap">
+        <div class="grid">
+          <h2
+            class="cta-headline c7"
+            data-i18n="cta.headline"
+          >
+            Together, we create the space for young people in Beni to choose
+            culture, opportunity and peace.
+          </h2>
+          <div class="cta-right c5">
+            <a
+              href="#"
+              class="btn btn-lg donate-btn"
+              id="donateButton"
+              data-i18n="donate.button"
+            >
+              Donate now
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     FOOTER
+     ============================================================ -->
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-about">
+            <!-- Footer logo: MONOCHROME / VERTICAL UJAMAA logo (dark/ink-colored,
+             since the footer background is now light). Source swapped
+             by language via the LOGOS object in script.js (id="footerLogo"). -->
+            <!-- <img
+              id="footerLogo"
+              src=""
+              alt="UJAMAA Cultural Center"
+            /> -->
+            <p data-i18n="footer.about">
+              UJAMAA Cultural Center empowers the young people of Beni, DRC
+              through culture, education, and opportunity.
+            </p>
+          </div>
+          <div class="footer-col footer-links">
+            <h4 data-i18n="footer.linksTitle">Explore</h4>
+            <a
+              href="#who"
+              data-i18n="nav.who"
+            >
+              Who We Are
+            </a>
+            <a
+              href="#programs"
+              data-i18n="nav.programs"
+            >
+              Our Programs
+            </a>
+            <a
+              href="#video"
+              data-i18n="nav.video"
+            >
+              Our Vision
+            </a>
+            <a
+              href="#region"
+              data-i18n="nav.region"
+            >
+              Region
+            </a>
+          </div>
+          <div class="footer-col footer-contact">
+            <h4 data-i18n="footer.contactTitle">Contact</h4>
+            <!-- ORG_INFO in script.js holds the real phone, address and social links -->
+            <a
+              href="tel:"
+              id="orgPhone"
+              class="footer-contact-line"
+            ></a>
+            <p
+              id="orgAddress"
+              class="footer-contact-line"
+            ></p>
+            <div
+              class="social-icons"
+              id="socialLinks"
+            ></div>
+          </div>
+          <div class="footer-col footer-bank">
+            <h4 data-i18n="footer.bankTitle">Bank details for donations</h4>
+            <!--
+          BANK DETAILS — edit the BANK_DETAILS object near the top of
+          script.js. The box below is rendered automatically from that
+          object — do not hand-edit this markup, it is overwritten on load.
+        -->
+            <div
+              class="bank-box"
+              id="bankBox"
+            ></div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>
+            &copy;
+            <span id="year"></span>
+            UJAMAA Cultural Center.
+            <span data-i18n="footer.rights">All rights reserved.</span>
+          </span>
+          <span data-i18n="footer.email">cculturel.ujamaa@gmail.com</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ============================================================
+     DONATE MODAL — bank details, opened by every .donate-btn.
+     TODO: paste your donation platform's EMBED CODE into
+     DONATION_EMBED_HTML in script.js; it will appear at the top of this modal.
+     ============================================================ -->
+    <div
+      class="donate-modal"
+      id="donateModal"
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+    >
+      <div
+        class="donate-modal-backdrop"
+        id="donateModalBackdrop"
+      ></div>
+      <div class="donate-modal-box">
+        <button
+          class="donate-modal-close"
+          id="donateModalClose"
+          aria-label="Close"
+        >
+          <i data-lucide="x"></i>
+        </button>
+        <h3 data-i18n="donate.modalTitle">Support UJAMAA by bank transfer</h3>
+        <p
+          class="donate-modal-intro"
+          data-i18n="donate.modalIntro"
+        >
+          Use the details below to send your contribution.
+        </p>
+        <!-- TODO: filled from DONATION_EMBED_HTML in script.js when you have the platform's embed code -->
+        <div
+          class="donate-embed"
+          id="donateEmbed"
+        ></div>
+        <p
+          class="donate-alt-label"
+          id="donateAltLabel"
+          data-i18n="donate.altLabel"
+        >
+          Or donate by bank transfer
+        </p>
+        <div
+          class="bank-box"
+          id="donateBankBox"
+        ></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
